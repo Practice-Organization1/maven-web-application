@@ -94,20 +94,12 @@
 		
 	</dependencies>
 	
-	<distributionManagement>
-	
-	    <repository>
-	      <id>nexus</id>
-	      <name>VK Technologies Releases Nexus Repository</name>
-	      <url>http://18.188.31.79:8081/repository/Project1-release/</url>
-	    </repository>
-	    
+	<distributionManagement>	    
 	    <snapshotRepository>
-	      <id>nexus</id>
+	      <id>nexus-Test</id>
 	      <name>VK Technologies Snapshot Nexus Repository </name>
 	      <url>http://18.188.31.79:8081/repository/Project1-snapshot/</url>
 	    </snapshotRepository>
-	    
 	</distributionManagement>
 	
 	<build>
